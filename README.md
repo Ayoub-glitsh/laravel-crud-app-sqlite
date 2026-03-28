@@ -19,6 +19,11 @@
 
 </div>
 
+
+<p align="center">
+  <img src="images/home.png" width="700"/>
+</p>
+
 ---
 
 ## 📋 Table des Matières
