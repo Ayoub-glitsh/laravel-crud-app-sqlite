@@ -100,7 +100,7 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" /> **Laravel Sail** | v1.53.0 | Environnement Docker |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" height="40" /> **Laravel Pail** | v1.2.6 | Visualiseur de logs |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" height="40" /> **Laravel Boost** | v2.2.3 | Serveur MCP |
-| <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="40" height="40" /> **Laravel Herd** | - | Serveur de développement local |
+| <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="40" height="40" /> **Laravel Herd** | v1.24.0 | Serveur de développement local |
 
 </div>
 
