@@ -196,29 +196,66 @@ ninja_network/
 
 ### Fonctionnalités actuelles
 
-1. **Page d'accueil**
+#### 1. **Page d'accueil**
    - Page de bienvenue de l'application
+   - Liens vers les sections principales
+   
+   ![Page d'accueil](screenshots/home.png)
 
-2. **Liste des Ninjas**
-   - Affichage de tous les ninjas disponibles
+#### 2. **Liste des Ninjas**
+   - Affichage de tous les ninjas avec pagination (10 par page)
    - Mise en évidence des ninjas avec un niveau de compétence > 70
    - Cartes cliquables pour voir les détails
+   - Affichage du dojo associé à chaque ninja
+   - Tri par date de création (plus récent en premier)
+   
+   ![Liste des ninjas](screenshots/ninjas-list.png)
 
-3. **Détails d'un Ninja**
-   - Affichage des informations d'un ninja spécifique par ID
+#### 3. **Détails d'un Ninja**
+   - Affichage complet des informations d'un ninja :
+     - Nom
+     - Niveau de compétence (skill)
+     - Biographie
+     - Dojo d'appartenance avec localisation
+   - Bouton de retour vers la liste
+   
+   ![Détails d'un ninja](screenshots/ninja-details.png)
 
-4. **Création de Ninja**
-   - Page de formulaire pour créer un nouveau ninja (interface prête)
+#### 4. **Création de Ninja**
+   - Formulaire complet et fonctionnel pour créer un nouveau ninja
+   - Champs :
+     - Nom (requis)
+     - Niveau de compétence 0-100 (requis)
+     - Biographie (requis)
+     - Sélection du dojo (requis)
+   - Validation côté serveur avec Laravel Form Request
+   - Redirection vers la liste après création
+   - Champs de formulaire avec fond blanc pour meilleure visibilité
+   
+   ![Formulaire de création](screenshots/ninja-create.png)
+
+### Fonctionnalités techniques implémentées
+
+- ✅ **Modèles Eloquent** : Ninja et Dojo avec relations
+- ✅ **Contrôleur CRUD** : NinjaController avec méthodes index, show, create, store
+- ✅ **Migrations** : Tables ninjas et dojos
+- ✅ **Factories** : Génération de données de test pour Ninja et Dojo
+- ✅ **Seeders** : Peuplement de la base de données
+- ✅ **Validation** : Règles de validation pour la création de ninja
+- ✅ **Relations Eloquent** : Relation belongsTo entre Ninja et Dojo
+- ✅ **Eager Loading** : Optimisation des requêtes avec `with('dojo')`
+- ✅ **Pagination** : 10 ninjas par page
 
 ### Fonctionnalités à développer
 
-- [ ] Formulaire fonctionnel de création de ninja
-- [ ] Modèle Ninja avec base de données
-- [ ] CRUD complet (Create, Read, Update, Delete)
+- [ ] Modification de ninja (edit/update)
+- [ ] Suppression de ninja (destroy)
 - [ ] Système d'authentification
 - [ ] Filtrage et recherche de ninjas
-- [ ] Pagination
+- [ ] Gestion des dojos (CRUD complet)
+- [ ] Upload d'images pour les ninjas
 - [ ] API REST
+- [ ] Tests automatisés
 
 ---
 
