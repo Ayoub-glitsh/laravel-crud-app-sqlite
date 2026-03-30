@@ -686,7 +686,7 @@ export default defineConfig({
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="images/Laravel Page d'accueil.png" alt="Page d'accueil" width="100%" />
+      <img src="images/Laravel Page d'accueil.png" alt="Page d'accueil" width="100%" /> 
       <br />
       <strong>Page d'accueil</strong>
       <br />
