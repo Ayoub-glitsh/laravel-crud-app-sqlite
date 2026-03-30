@@ -1,30 +1,20 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use \App\Http\Controllers\NinjaController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ninjas', function () {
-
-    $ninjas = [
-       ["name" => "Yoshi","skill" =>  75 , "id" => 1],
-       ["name" => "Hattori","skill" =>  85 , "id" => 2],
-       ["name" => "Hanzo","skill" =>  95 , "id" => 3],
-    ];
-    return view('ninjas.index',["greeting" => "Welcome to the Ninja Network", "ninjas" => $ninjas]);
-});
+Route::get('/ninjas', [NinjaController::class, 'index'])->name('ninjas.index');
 
 
-Route::get('/ninjas/create',function (){
-    return view('ninjas.create');
-});
+Route::get('/ninjas/create', [NinjaController::class, 'create'])->name('ninjas.create');
 
-Route::get('/ninjas/{id}', function ($id) {
+Route::get('/ninjas/{ninja}', [NinjaController::class, 'show'])->name('ninjas.show');
 
-    return view('ninjas.show',["id" => $id]);
-});
+Route::post('/ninjas', [NinjaController::class, 'store'])->name('ninjas.store');
 
-
+Route::delete('/ninjas/{ninja}', [NinjaController::class, 'destroy'])->name('ninjas.destroy');
 
