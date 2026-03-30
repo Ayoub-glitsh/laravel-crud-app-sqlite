@@ -82,7 +82,7 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" /> **PHP** | v8.4.16 | Langage de programmation |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" /> **SQLite** | v3.49.2 | Base de données légère |
 | <img src="https://raw.githubusercontent.com/pestphp/art/master/logo.svg" width="40" height="40" /> **Pest** | v4.4.1 | Framework de test PHP |
-| <img src="images/phpunit.png" width="40" height="40" />   **PHPUnit** | v12.5.12 | Testing framework |
+| <img src="images/phpunit.png" width="40" height="40" />   **PHPUnit** | v12.5.12 | Testing framework | 
 
 ### Frontend
 
