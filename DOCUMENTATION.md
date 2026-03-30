@@ -677,6 +677,51 @@ export default defineConfig({
 
 ---
 
+## 📸 Galerie
+
+<div align="center">
+
+### Captures d'écran de l'application
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/home.png" alt="Page d'accueil" width="100%" />
+      <br />
+      <strong>Page d'accueil</strong>
+      <br />
+      <em>Interface de bienvenue avec navigation principale</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/ninjas-list.png" alt="Liste des ninjas" width="100%" />
+      <br />
+      <strong>Liste des ninjas</strong>
+      <br />
+      <em>Affichage paginé avec mise en évidence des ninjas experts</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/ninja-details.png" alt="Détails d'un ninja" width="100%" />
+      <br />
+      <strong>Détails d'un ninja</strong>
+      <br />
+      <em>Profil complet avec informations du dojo</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/ninja-create.png" alt="Formulaire de création" width="100%" />
+      <br />
+      <strong>Création de ninja</strong>
+      <br />
+      <em>Formulaire avec validation et sélection de dojo</em>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## 📚 Ressources
 
 ### Documentation officielle
