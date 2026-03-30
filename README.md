@@ -38,7 +38,7 @@
 
 
 <p align="center">
-  <img src="images/Home.png" width="700"/>  
+  <img src="images/Laravel Page d'accueil.png" width="700"/>  
 </p>
 
 ---
