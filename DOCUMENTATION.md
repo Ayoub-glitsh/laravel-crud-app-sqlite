@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🥷 Ninja Network
+# Ninja Network
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Bienvenue+sur+Ninja+Network;Gérez+votre+réseau+de+ninjas;Laravel+12+%7C+PHP+8.4+%7C+Tailwind+CSS" alt="Typing SVG" />
