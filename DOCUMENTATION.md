@@ -709,7 +709,7 @@ export default defineConfig({
       <em>Profil complet avec informations du dojo</em>
     </td>
     <td align="center" width="50%">
-      <img src="screenshots/ninja-create.png" alt="Formulaire de création" width="100%" />
+      <img src="https://i.postimg.cc/MH9pPcsN/create-ninja.png" alt="Formulaire de création" width="100%" />
       <br />
       <strong>Création de ninja</strong>
       <br />
