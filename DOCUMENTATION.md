@@ -693,7 +693,7 @@ export default defineConfig({
       <em>Interface de bienvenue avec navigation principale</em>
     </td>
     <td align="center" width="50%">
-      <img src="screenshots/ninjas-list.png" alt="Liste des ninjas" width="100%" />
+      <img src="https://i.postimg.cc/qRZ8KYpb/image.png" alt="Liste des ninjas" width="100%" />
       <br />
       <strong>Liste des ninjas</strong>
       <br />
