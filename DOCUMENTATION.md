@@ -702,7 +702,7 @@ export default defineConfig({
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="screenshots/ninja-details.png" alt="Détails d'un ninja" width="100%" />
+      <img src="" alt="Détails d'un ninja" width="100%" />
       <br />
       <strong>Détails d'un ninja</strong>
       <br />
