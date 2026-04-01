@@ -200,7 +200,7 @@ ninja_network/
    - Page de bienvenue de l'application
    - Liens vers les sections principales
    
-   ![Page d'accueil](screenshots/home.png)
+   ![Page d'accueil](https://i.postimg.cc/8kJX18B8/image_01.png)
 
 #### 2. **Liste des Ninjas**
    - Affichage de tous les ninjas avec pagination (10 par page)
@@ -209,7 +209,7 @@ ninja_network/
    - Affichage du dojo associé à chaque ninja
    - Tri par date de création (plus récent en premier)
    
-   ![Liste des ninjas](screenshots/ninjas-list.png)
+   ![Liste des ninjas](https://i.postimg.cc/qRZ8KYpb/image.png)
 
 #### 3. **Détails d'un Ninja**
    - Affichage complet des informations d'un ninja :
