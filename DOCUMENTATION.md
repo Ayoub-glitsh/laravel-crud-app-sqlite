@@ -219,7 +219,7 @@ ninja_network/
      - Dojo d'appartenance avec localisation
    - Bouton de retour vers la liste
    
-   ![Détails d'un ninja](screenshots/ninja-details.png)
+   ![Détails d'un ninja](https://i.postimg.cc/wBPqm8td/details.png)
 
 #### 4. **Création de Ninja**
    - Formulaire complet et fonctionnel pour créer un nouveau ninja
@@ -232,7 +232,7 @@ ninja_network/
    - Redirection vers la liste après création
    - Champs de formulaire avec fond blanc pour meilleure visibilité
    
-   ![Formulaire de création](screenshots/ninja-create.png)
+   ![Formulaire de création](https://i.postimg.cc/MH9pPcsN/create_ninja.png)
 
 ### Fonctionnalités techniques implémentées
 
@@ -702,7 +702,7 @@ export default defineConfig({
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://i.postimg.cc/MH9pPcsN/create-ninja.png" alt="Détails d'un ninja" width="100%" />
+      <img src="https://i.postimg.cc/wBPqm8td/details.png" alt="Détails d'un ninja" width="100%" />
       <br />
       <strong>Détails d'un ninja</strong>
       <br />
