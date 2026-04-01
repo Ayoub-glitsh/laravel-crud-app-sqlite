@@ -78,7 +78,7 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" /> **SQLite** | - | Base de données légère |
 | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnx_jdyF_GwYAMLe-n0HMq93427mKMLrwCg&s.svg" width="70" height="70" /> **Pest** | v4.4.1 | Framework de test PHP |
 | <img src="https://i.postimg.cc/g0pr0P6f/phpunit.png" width="40" height="40" /> **PHPUnit** | v12.5.12 | Testing framework |
-
+ 
 ### Frontend
 
 | Technologie | Version | Description |
