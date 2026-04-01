@@ -41,7 +41,7 @@
 </p>
  -->
 
-[![image.png](https://i.postimg.cc/qRZ8KYpb/image.png)
+![image.png](https://i.postimg.cc/qRZ8KYpb/image.png)
 
  
 ---
