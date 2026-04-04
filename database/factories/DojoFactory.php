@@ -17,9 +17,9 @@ class DojoFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->company(),
-            'location' => fake()->city(),
-            'description' => fake()->paragraph(10),
+            'name' => $this->faker->company(),
+            'location' => $this->faker->city(),
+            'description' => $this->faker->paragraph(10),
         ];
     }
 }

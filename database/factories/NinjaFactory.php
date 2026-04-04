@@ -18,9 +18,9 @@ class NinjaFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
-            'skill' => fake()->numberBetween(0, 100),
-            'bio' => fake()->realText(500),
+            'name' => $this->faker->name(),
+            'skill' => $this->faker->numberBetween(0, 100),
+            'bio' => $this->faker->realText(500),
             'dojo_id' => Dojo::inRandomOrder()->first()->id,
         ];
     }
